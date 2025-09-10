@@ -1,3 +1,4 @@
+# 在这个文件下编写代码
 # WeightConvert.py
 weight_str=input("请输入带有单位的重量值:")
   unit=weight_str[-2].lower()
