@@ -1,5 +1,5 @@
 # WeightConvert.py
-weight_str=input("请输入带有单位的重量值:")
+weight_str=input()
   unit=weight_str[-2:].lower()
 if unit == 'kg':
   kg=float(weight_str[:-2])
@@ -10,4 +10,4 @@ elif unit == 'pd':
   kg=pd/2.2046
   print(f"转换后的重量是{kg:.3f} kg")
 else:
-  print("输入格式错误，请输入正确单位，例如 10kg 或 10pd") 
+  print("输入格式错误") 
